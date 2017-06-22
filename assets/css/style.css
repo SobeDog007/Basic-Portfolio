@@ -1,5 +1,12 @@
-/* Style sheet for student bio */
+/* Steven Sober
+   06/21/2017
+   Homework-01
+   style.css
+*/
 
+/* Style sheet for basic portfolio */
+
+/*
 body {
 	background-color: #efeee7;
 	font-family: "Georgia","Helvetica", Times, serif;
@@ -9,7 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+/*
 h1 {
 	color: #efeee7;
 	background-color: #333333;
@@ -20,19 +27,11 @@ h1 {
     padding-bottom: 20px;
 }
 
-h2 {
-	font-size: 24px;
-}
+*/
 
-a {
-	color: #d21034;
-}
 
-p {
-	color: #333333;
-	font-size: 16px;
-	line-height: 1.25;
-}
+
+/*
 
 .container {
 	width: 1024px;
@@ -50,6 +49,33 @@ p {
 	line-height: 150%
 }
 
+*/
+
+#header-name {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #ffffff;
+	background: #4aaaa5;
+	float: left;
+}
+
+#link-names {
+    float: left;
+
+
+}
+
+#about-box {
+	color: #777777;
+	background: #ffffff;
+
+
+}
+
+#about-name {
+	color: #4aaaa5;
+	padding: 20px;
+}
+
 #bio-image {
 	float: left;
 	margin-right: 20px;
@@ -57,4 +83,53 @@ p {
 	height: 200px;
 }
 
+p {
+	font-size: 14px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 2;
+}
+
+aside {
+	float: left;
+	color: #4aaaa5;
+	background: #ffffff;
+}
+
+#icon-image {
+	height: 30px;
+	width: 30px;
+}
+
+#menu {
+	display: inline;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ffffff;
+	background: #666666;
+	padding: 20px;
+}
+
+
+#portfolio-div {
+	background: #ffffff;
+	width: 800px;
+	height: 800px;
+}
+
+
+#img-names {
+	color: #ffffff;
+	background: #4aaaa5;
+	width: 100px;
+}
+
+#port-images {
+	width: 100px;
+	height: 75px;
+}
 
